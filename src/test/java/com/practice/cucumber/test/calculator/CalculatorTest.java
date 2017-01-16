@@ -1,7 +1,6 @@
 package com.practice.cucumber.test.calculator;
 
 import com.practice.cucumber.Calculator;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
