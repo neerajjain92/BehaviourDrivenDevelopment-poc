@@ -1,7 +1,10 @@
 # BehaviourDrivenDevelopment-poc
 POC for BDD with help of Cucumber (https://cucumber.io/)
 
-# Acceptance Test [Which will be given by Business Peoplsdsd1`21]
+# Acceptance Test
+
+*First, the developers, testers and business folks explore the problem domain, and collaborate to produce concrete examples that describe the behaviour they want.*
+**Sample Behavior File**
 ```
 Feature: Simple Calculator Application
 
@@ -34,16 +37,10 @@ Feature: Simple Calculator Application
       And add 5.5
       Then result should be 10.5
 ```
+*Next, the team use **Cucumber** to run those examples as automated acceptance tests.*
 
-# Run Cucumber Acceptance Tests (approaches):
+# Run Acceptance Tests (approaches):
 
-1.  
 ```
-cd BehaviourDrivenDevelopment-poc
 gradle cucumber
-```
- 2.
-```
-cd BehaviourDrivenDevelopment-poc
-./gradlew clean cucumber  
 ```
