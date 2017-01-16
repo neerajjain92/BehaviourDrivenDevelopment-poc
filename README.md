@@ -37,7 +37,7 @@ Feature: Simple Calculator Application
       And add 5.5
       Then result should be 10.5
 ```
-*Next, the team use **Cucumber** to run those examples as automated acceptance tests.*
+*Next, the team use* **Cucumber** *to run those examples as automated acceptance tests.*
 
 # Run Acceptance Tests (approaches):
 
