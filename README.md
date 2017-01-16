@@ -5,8 +5,8 @@ POC for BDD with help of Cucumber (https://cucumber.io/)
 ```
 cd BehaviourDrivenDevelopment-poc
 gradle cucumber
-or 
+    #or 
 ./gradlew clean cucumber
-or 
+    #or 
 Right click on Feature file and Run'Feature: Calculator'
 ```
