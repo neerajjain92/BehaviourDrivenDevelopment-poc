@@ -1,17 +1,21 @@
 # BehaviourDrivenDevelopment-poc
 POC for BDD with help of Cucumber (https://cucumber.io/)
 
-# Run Cucumber Acceptance Tests
+# Run Cucumber Acceptance Tests:
+
+1. 
+
 ```
 cd BehaviourDrivenDevelopment-poc
 gradle cucumber
 ```
-# or 
+2.
+
 ```
 cd BehaviourDrivenDevelopment-poc
-./gradlew clean cucumber
+./gradlew clean cucumber  
 ```
-# or 
+3. 
 ```
 Right click on Feature file and Run'Feature: Calculator'
 ```
