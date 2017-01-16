@@ -8,7 +8,7 @@ POC for BDD with help of Cucumber (https://cucumber.io/)
 cd BehaviourDrivenDevelopment-poc
 gradle cucumber
 ```
-2.
+ 2.
 ```
 cd BehaviourDrivenDevelopment-poc
 ./gradlew clean cucumber  
