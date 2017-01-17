@@ -59,3 +59,7 @@ Feature: Simple Calculator Application
 ```
 gradle cucumber
 ```
+*Another Approach*
+```
+Right Click on Feature File and Run it 
+```
