@@ -29,16 +29,16 @@ Feature: Behaviour Driven Development Application
       And add 5.5
       Then result should be 10.5
 
-    Scenario Outline: Login Functionality for Facebook
-      Given user navigate to Facebook via chrome
-      When user enter UserName as "<username>" and password as "<password>"
-      Then login should be unsuccessful
-      Examples:
-        | username  | password  |
-        | username1 | password1 |
-        | username2 | password2 |
+  Scenario Outline: Login Functionality for Facebook
+    Given user navigate to Facebook via chrome
+    When user enter UserName as "<username>" and password as "<password>"
+    Then login should be unsuccessful
+    Examples:
+      | username  | password  |
+      | username1 | password1 |
+      | username2 | password2 |
 
-    Scenario:
-      Given user navigate to Facebook via chrome
-      When user enter UserName as "<username>" and password as "<password>"
-      Then the user should be redirected to login retry
+  Scenario:
+    Given user navigate to Facebook via chrome
+    When user enter UserName as "<username>" and password as "<password>"
+    Then the user should be redirected to login retry
